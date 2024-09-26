@@ -24,8 +24,14 @@ be the numerical zone ID for the instance, e.g. content for
 `The Howling Eye (Hard)` would go in `guides/294.html`. The zone ID is shown
 in the autoguide header.
 
-At some point there will be some sensible CSS and utilities for use in guides,
-but not yet.
+Guides should follow these rules:
+
+- Sections (bosses, phases) should use `<h3>` headings
+- Instructions should generally be in an `<ul>`
+- Spell names or other information that needs to be easily scannable should be
+  wrapped in a `<span class="spell">`
+- Callouts can be made by applying the `healer-note`, `tank-note` or
+  `important-note` class to a container. This will add a border and icon.
 
 ## Disclaimer
 

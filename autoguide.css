@@ -1,3 +1,5 @@
+/** Overall page setup **/
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,6 +7,9 @@ body {
     padding: 20px;
     box-sizing: border-box;
     min-height: 100vh;
+
+    font-family: sans-serif;
+    font-size: 18pt;
 }
 
 header {
@@ -37,5 +42,71 @@ main {
 
 footer {
     text-align: center;
+    font-size: 0.6em;
     color: #666666;
+}
+
+/** Guide specific helpers **/
+
+h3 {
+    background-color: darkgoldenrod;
+    padding: 10px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+ul li + li {
+    margin-top: 10px;
+}
+
+.spell {
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 5px;
+    background-color: gray;
+    color: white;
+}
+
+.healer-note {
+    background-image: url('resources/icons/healer.webp');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    padding: 4px 8px 4px 44px;
+    border: 4px solid green;
+    color: darkgreen;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.tank-note {
+    background-image: url('resources/icons/tank.webp');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    padding: 4px 8px 4px 44px;
+    border: 4px solid blue;
+    color: darkblue;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.important-note {
+    background-image: url('resources/icons/exclaim.webp');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    padding: 4px 8px 4px 44px;
+    border: 4px solid red;
+    color: darkred;
+    border-radius: 10px;
+    font-size: 1.2em;
 }
