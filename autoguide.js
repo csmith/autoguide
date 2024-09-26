@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const url = new URL(window.location.href);
     if (!url.searchParams.has("OVERLAY_WS")) {
         // We don't want the value url-encoded because the library doesn't parse
@@ -9,9 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    addOverlayListener('ChangeZone', async (data) => {
-        console.log(`Change zone`, data);
-
+    async function loadZone(data) {
         document.getElementById('location').innerText = data.zoneName;
         document.getElementById('locationId').innerText = `#${data.zoneID}`;
 
@@ -21,7 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             document.getElementById('content').innerHTML = "No guide for here yet :(";
         }
-    });
+    }
 
-    startOverlayEvents()
+    if (url.searchParams.has('zoneID')) {
+        await loadZone({
+            zoneID: url.searchParams.get('zoneID'),
+            zoneName: 'Unknown zone',
+        });
+    } else {
+        addOverlayListener('ChangeZone', loadZone);
+        startOverlayEvents()
+    }
 });

@@ -12,6 +12,11 @@ You can view the guide here: https://csmith.github.io/autoguide/. If your
 overlay plugin is listening on a different port you can specify the `OVERLAY_WS`
 parameter explicitly like so: https://csmith.github.io/autoguide/?OVERLAY_WS=ws://127.0.0.1:10501/ws
 
+If you're testing, or not using the automatic functionality, you can set the
+displayed zone using a `zoneID` query parameter:
+https://csmith.github.io/autoguide/?zoneID=294. This will disable the websocket
+functionality.
+
 ## Contributing guides
 
 Guides are stored as HTML files under the `guides` folder. The filename should
