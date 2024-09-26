@@ -8,9 +8,9 @@ the [OverlayPlugin](https://github.com/OverlayPlugin/OverlayPlugin), or
 [IINACT](https://www.iinact.com/). It uses these to observe the current
 zone, and adjust the content appropriately.
 
-You can view the guide here: https://csmith.github.io/autoguide/?OVERLAY_WS=ws://127.0.0.1:10501/ws.
-Adjust the `OVERLAY_WS` parameter if your overlay websocket is on a different
-port.
+You can view the guide here: https://csmith.github.io/autoguide/. If your
+overlay plugin is listening on a different port you can specify the `OVERLAY_WS`
+parameter explicitly like so: https://csmith.github.io/autoguide/?OVERLAY_WS=ws://127.0.0.1:10501/ws
 
 ## Contributing guides
 
@@ -21,3 +21,11 @@ in the autoguide header.
 
 At some point there will be some sensible CSS and utilities for use in guides,
 but not yet.
+
+## Disclaimer
+
+FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
+Screenshots, game text, etc © SQUARE ENIX.
+
+Use of third-party software is at your own risk. Software mentioned here is
+not recommended or endorsed by the authors of autoguide.
