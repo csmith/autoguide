@@ -49,9 +49,13 @@ footer {
 /** Guide specific helpers **/
 
 h3 {
-    background-color: darkgoldenrod;
-    padding: 10px;
-    color: white;
+    font-size: 1.5em;
+    padding: 10px 0;
+    margin: 20px 0;
+    color: darkgoldenrod;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-transform: uppercase;
 }
 
 ul {
@@ -109,4 +113,24 @@ ul li + li {
     color: darkred;
     border-radius: 10px;
     font-size: 1.2em;
+}
+
+aside.links {
+    margin-top: 20px;
+    float: right;
+    background-color: white;
+    border: 5px solid darkgoldenrod;
+    border-radius: 10px;
+}
+
+aside.links h3 {
+    background-color: darkgoldenrod;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    text-align: center;
+}
+
+aside.links ul {
+    padding: 10px 20px;
 }
