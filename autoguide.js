@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (res.ok) {
             document.getElementById('content').innerHTML = await res.text();
         } else {
-            document.getElementById('content').innerHTML = "No guide for here yet :(";
+            document.getElementById('content').innerHTML = `No guide for this zone. If you think we should have one please <a href="https://github.com/csmith/autoguide/issues/new?title=Missing%20zone:%20${data.zoneName}&body=Zone%20ID:%20${data.zoneID}">raise an issue</a>.`;
         }
     }
 
