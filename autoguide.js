@@ -8,8 +8,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         const res = await fetch(`guides/${data.zoneID}.html`)
         if (res.ok) {
             document.getElementById('content').innerHTML = await res.text();
+            document.getElementById('edit').innerHTML = `<a href="https://github.com/csmith/autoguide/edit/master/guides/${data.zoneID}.html">Suggest a change for this guide on GitHub</a>`
         } else {
             document.getElementById('content').innerHTML = `No guide for this zone. If you think we should have one please <a href="https://github.com/csmith/autoguide/issues/new?title=Missing%20zone:%20${data.zoneName}&body=Zone%20ID:%20${data.zoneID}">raise an issue</a>.`;
+            document.getElementById('edit').innerHTML = ``
         }
     }
 

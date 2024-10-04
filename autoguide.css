@@ -41,9 +41,11 @@ main {
 }
 
 footer {
-    text-align: center;
     font-size: 0.6em;
     color: #666666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /** Guide specific helpers **/
