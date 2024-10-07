@@ -12,6 +12,10 @@ body {
     font-size: 18pt;
 }
 
+#container, #inner {
+    display: contents;
+}
+
 header {
     display: flex;
     align-items: baseline;
