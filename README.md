@@ -19,12 +19,12 @@ functionality.
 
 ## Contributing guides
 
-Guides are stored as HTML files under the `guides` folder. The filename should
+Guides are stored as JSON files under the `guides` folder. The filename should
 be the numerical zone ID for the instance, e.g. content for
-`The Howling Eye (Hard)` would go in `guides/294.html`. The zone ID is shown
+`The Howling Eye (Hard)` would go in `guides/294.json`. The zone ID is shown
 in the autoguide header.
 
-Guides should follow these rules:
+Guides content should follow these rules:
 
 - Sections (bosses, phases) should use `<h3>` headings
 - Instructions should generally be in an `<ul>`

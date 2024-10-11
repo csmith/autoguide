@@ -1,0 +1,5 @@
+{
+  "name": "*Autoguide example",
+  "links": {},
+  "content": "\n<h3>Example encounter</h3>\n\n<ul>\n    <li>Do something</li>\n    <li>When they cast <span class=\"spell\">some spell</span>: run away!</li>\n</ul>\n\n<h3>Some other encounter</h3>\n\n<ul>\n    <li class=\"healer-note\">Remember to adjust when the DPS are bad</li>\n    <li class=\"tank-note\">Point the danger end away from the party</li>\n    <li class=\"dps-note\">Pew, pew, pew!</li>\n    <li class=\"important-note\">Something critical here</li>\n</ul>"
+}

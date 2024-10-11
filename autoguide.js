@@ -5,9 +5,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('location').innerText = data.zoneName;
         document.getElementById('locationId').innerText = `#${data.zoneID}`;
 
-        const res = await fetch(`guides/${data.zoneID}.html`)
-        if (res.ok) {
-            document.getElementById('content').innerHTML = await res.text();
+        const res = await fetch(`guides/${data.zoneID}.json`)
+            .then((r) => r.json())
+            .catch(() => {});
+        if (res && res.content && res.content.length > 0) {
+            // TODO: Handle links nicely (put them in the footer with icons?)
+            document.getElementById('location').innerText = res.name;
+            document.getElementById('content').innerHTML = res.content;
             document.getElementById('edit').innerHTML = `<a href="https://github.com/csmith/autoguide/edit/master/guides/${data.zoneID}.html">Suggest a change for this guide on GitHub</a>`
             document.body.className = 'found';
         } else {
