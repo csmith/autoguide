@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.getElementById('location').innerText = res.name;
             document.getElementById('content').innerHTML = res.content;
             document.getElementById('edit').innerHTML = `<a href="https://github.com/csmith/autoguide/edit/master/guides/${data.zoneID}.html">Suggest a change for this guide on GitHub</a>`
-            document.body.className = 'found';
+            maximise();
         } else {
             document.getElementById('content').innerHTML = `No guide for this zone. If you think we should have one please <a href="https://github.com/csmith/autoguide/issues/new?title=Missing%20zone:%20${data.zoneName}&body=Zone%20ID:%20${data.zoneID}">raise an issue</a>.`;
             document.getElementById('edit').innerHTML = ``
-            document.body.className = 'missing';
+            minimise();
         }
     }
 
@@ -40,3 +40,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         startOverlayEvents()
     }
 });
+
+
+function minimise() {
+    document.body.className = 'missing';
+}
+
+function maximise() {
+    document.body.className = 'found';
+}

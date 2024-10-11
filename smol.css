@@ -72,11 +72,14 @@ h1 {
     flex-grow: 1;
     padding: 0;
     margin: 0;
+    font-size: x-small;
+    cursor: pointer;
 }
 
 h2 {
     padding: 0;
     margin: 0;
+    font-size: x-small;
 }
 
 #locationId {
@@ -90,6 +93,10 @@ main {
 
 footer {
     display: none;
+}
+
+.accent {
+    color: cornflowerblue;
 }
 
 /** Guide specific helpers **/
@@ -188,6 +195,25 @@ aside.links ul {
     padding: 10px;
 }
 
-.missing {
+.missing #container {
     display: none;
+}
+
+#maximisebutton {
+    display: none;
+}
+
+.missing #maximisebutton {
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 18px;
+    box-shadow: inset 0 1px 1px 0 #cfc36e,inset 0 0 1px 0 hsla(53,50%,62%,.5),0 0 1px 2px rgba(0,0,0,.5),0 2px 2px 2px rgba(0,0,0,.5);
+    background: #1e1e1e;
+    color: #bca98a;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

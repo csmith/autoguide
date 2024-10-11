@@ -12,12 +12,12 @@
 <div id="container">
     <div id="inner">
         <header>
-            <h1>Autoguide</h1>
+            <h1 onclick="minimise()">Auto<span class="accent">guide</span></h1>
             <h2 id="location">Loading...</h2>
             <span id="locationId">Unknown</span>
         </header>
         <main id="content">
-
+            <button onclick="document.location.reload()">Try to reconnect</button>
         </main>
         <footer>
         <span id="edit">
@@ -28,6 +28,9 @@
         </span>
         </footer>
     </div>
+</div>
+<div id="maximisebutton" onclick="maximise()">
+    A<span class="accent">G</span>
 </div>
 </body>
 </html>
