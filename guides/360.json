@@ -5,5 +5,27 @@
     "consolegameswiki": "https://ffxiv.consolegameswiki.com/wiki/Halatali_(Hard)",
     "mtq": "https://www.youtube.com/watch?v=ezyKYkja5ys"
   },
-  "guide": []
+  "guide": [
+    [
+      "General",
+      "Use NPCs after each boss to teleport"
+    ],
+    [
+      "Pyracmon",
+      "[[1000 Tonze Swing]] Activate mammets lever and get to Mammets Aura"
+    ],
+    [
+      "Catoablepas",
+      "[[Daemon Eye]] Everyone activate a Shadow Orb",
+      "[[Bestial Roar]] Switch to killing Boss' Tainted Eye"
+    ],
+    [
+      "Mumuepo the Beholden",
+      "First Group",
+      "➥ Kill Healer",
+      "Second Group",
+      "➥ Tank Narasimha.  Kill Mumuepo",
+      "[[Chains]] Click Scepter to free player"
+    ]
+  ]
 }

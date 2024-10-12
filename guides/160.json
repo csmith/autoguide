@@ -5,5 +5,21 @@
     "consolegameswiki": "https://ffxiv.consolegameswiki.com/wiki/Pharos_Sirius",
     "mtq": "https://www.youtube.com/watch?v=TvRBiFUqG7k"
   },
-  "guide": []
+  "guide": [
+    [
+      "Symond The Unsinkable",
+      "[[Corrupting Crystal]] At 3 stacks this explodes, stay spread out"
+    ],
+    [
+      "Zu",
+      "Only kill one egg at a time or the boss gets enrage stacks"
+    ],
+    [
+      "Siren",
+      "HEALER: [[Siren Song]] person must be fully healed",
+      "Kill Storm Sergeants first",
+      "[[Lunatic Voice]] Interrupt",
+      "When boss goes airborne, move to center"
+    ]
+  ]
 }
