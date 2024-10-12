@@ -5,5 +5,20 @@
     "consolegameswiki": "https://ffxiv.consolegameswiki.com/wiki/The_Tam-Tara_Deepcroft_(Hard)",
     "mtq": "https://www.youtube.com/watch?v=lwHk2xVlriA"
   },
-  "guide": []
+  "guide": [
+    [
+      "Liavinne",
+      "IMPORTANT: Do not attack the adds",
+      "If you get a marker, use the AOE from it to kill them"
+    ],
+    [
+      "Spare Body",
+      "Intercept orbs before they hit the boss",
+      "TANKS: Take at least one of the big orbs when they spawn"
+    ],
+    [
+      "Avere Bravearm",
+      "Kill the adds before they reach the center"
+    ]
+  ]
 }
