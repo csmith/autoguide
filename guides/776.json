@@ -2,5 +2,10 @@
   "name": "The Ridorana Lighthouse",
   "links": {
   },
-  "content": "\n<h3>Belias, the Gigas</h3>\n\n<ul>\n    <li><span class=\"spell\">The Hand of Time</span>: run away if tethered, but avoid touching anyone with the tether</li>\n</ul>"
+  "guide": [
+    [
+      "Belias, the Gigas",
+      "[[The Hand of Time]]: run away if tethered, but avoid touching anyone with the tether."
+    ]
+  ]
 }

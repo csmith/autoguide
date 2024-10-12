@@ -5,5 +5,22 @@
     "consolegameswiki": "https://ffxiv.consolegameswiki.com/wiki/Sastasha",
     "mtq": "https://www.youtube.com/watch?v=tT3-1Yb787w"
   },
-  "content": "\n<h3>Trash</h3>\n\n<ul>\n    <li>In the dead end at the first corridor there's a note saying which colour coral summons the boss</li>\n</ul>\n\n<h3>Chopper</h3>\n\n<ul>\n    <li><span class=\"spell\">Charged Whisker</span> inflicts paralysis on anyone stood in the AOE</li>\n</ul>\n\n<h3>Captain Madison</h3>\n\n<ul>\n    <li>Tank and spank</li>\n</ul>\n\n<h3>Denn the Orcatoothed</h3>\n\n<ul>\n    <li>Ignore the grates and just focus down the boss, it'll die before adds become a problem</li>\n</ul>"
+  "guide": [
+    [
+      "Trash",
+      "In the dead end at the first corridor there's a note saying which colour coral summons the boss"
+    ],
+    [
+      "Chopper",
+      "[[Charged Whisker]] inflicts paralysis on anyone stood in the AOE"
+    ],
+    [
+      "Captain Madison",
+      "Tank and spank"
+    ],
+    [
+      "Denn the Orcatoothed",
+      "Ignore the grates and just focus down the boss, it'll die before adds become a problem"
+    ]
+  ]
 }

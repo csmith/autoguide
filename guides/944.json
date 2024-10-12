@@ -2,5 +2,17 @@
   "name": "Eden's Promise: Anamorphosis",
   "links": {
   },
-  "content": "\n<style>\n  .fire {\n    color: orange;\n    font-size: 1.2em;\n  }\n  .lightning {\n    color: dodgerblue;\n    font-size: 1.2em;\n  }\n  .light {\n    color: yellow;\n    font-size: 1.2em;\n  }\n</style>\n<ul>\n  <li class=\"healer-note\"><span class=\"spell\">Bound of Faith</span> + <span class=\"lightning\">LIGHTNING DRAGON</span>: massive DoT needs constant healing</li>\n  <li><span class=\"spell\">Burnt Strike</span>: line AOE in middle of arena\n    <ul class=\"inline-list\">\n      <li><span class=\"fire\">FIRE DRAGON</span>: large knock back</li>\n      <li><span class=\"lightning\">LIGHTNING DRAGON</span>: much wider than telegraph</li>\n      <li><span class=\"light\">LIGHT DRAGON</span>: stack for AoE circles after</li>\n    </ul>\n  </li>\n  <li><span class=\"spell\">Turn of the Heavens</span>: circles matching the dragon will have larger AOEs</li>\n  <li><span class=\"spell\">Shifting Sky</span>: two clones will sequentially cast line AOEs with additional effects:\n    <ul class=\"inline-list\">\n      <li><span class=\"fire\">FIRE DRAGON</span>: large knock back</li>\n      <li><span class=\"lightning\">LIGHTNING DRAGON</span>: much wider than telegraph</li>\n  </ul></li>\n  <li><span class=\"spell\">Prismatic Deception</span>: when the boss vanishes, run around the edge of the arena to find the invisible clones, avoid the three-line AoEs from these</li>\n</ul>"
+  "style": ".fire {color: orange;font-size: 1.2em;} .lightning {color: dodgerblue;font-size: 1.2em;} .light {color: yellow;font-size: 1.2em;}",
+  "guide": [
+    [
+      "Fatebreaker",
+      "HEALERS: [[Bound of Faith]] + <span class=lightning>LIGHTNING DRAGON</span>: massive DoT needs constant healing",
+      "[[Burnt Strike]]: line AOE in the middle of arena",
+      "➥ <span class=fire>FIRE DRAGON</span>: large knock back / <span class=lightning>LIGHTNING DRAGON</span>: much wider than telegraph / <span class=light>LIGHT DRAGON</span>: stack for AoE circles after",
+      "[[Turn of the Heavens]]: circles matching the dragon will have larger AOEs",
+      "[[Shifting Sky]]: two clones will sequentially cast line AOEs with additional effects",
+      "➥ <span class=fire>FIRE DRAGON</span>: large knock back / <span class=lightning>LIGHTNING DRAGON</span>: much wider than telegraph",
+      "[[Prismatic Deception]]: when the boss vanishes, run around the edge of the arena to find the invisible clones which will cast line AoEs"
+    ]
+  ]
 }

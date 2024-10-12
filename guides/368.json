@@ -5,5 +5,13 @@
     "consolegameswiki": "https://ffxiv.consolegameswiki.com/wiki/A_Relic_Reborn:_The_Chimera",
     "mtq": "https://www.youtube.com/watch?v=neW2BE2P3L4"
   },
-  "content": "\n<ul>\n    <li><span class=\"spell\">The Dragon's voice</span> - Move in</li>\n    <li><span class=\"spell\">The Ram's voice</span> - Move out</li>\n    <li><span class=\"spell\">Cocophony</span> - Bait the orb away from other players</li>\n    <li><span class=\"spell\">Ram's Keeper</span> - Move away from others - leaves large icy patch</li>\n</ul>\n"
+  "guide": [
+    [
+      "Chimera",
+      "[[The Dragon's Voice]]: move in.",
+      "[[The Ram's voice]]: move out.",
+      "[[Cocophony]]: bait the orb away from other players.",
+      "[[Ram's Keeper]]: spread; leaves a large icy patch."
+    ]
+  ]
 }

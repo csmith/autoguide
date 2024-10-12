@@ -107,7 +107,7 @@ h3 {
     margin: 5px 0;
     color: #bca98a;
 
-    &:first-child {
+    &:first-child, style + & {
         margin-top: 0;
         padding-top: 0;
     }

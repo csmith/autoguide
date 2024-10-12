@@ -7,11 +7,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const res = await fetch(`guides/${data.zoneID}.json`)
             .then((r) => r.json())
-            .catch(() => {});
-        if (res && res.content && res.content.length > 0) {
+            .catch(() => {
+            });
+        if (res && res.guide && res.guide.length > 0) {
             // TODO: Handle links nicely (put them in the footer with icons?)
             document.getElementById('location').innerText = res.name;
-            document.getElementById('content').innerHTML = res.content;
+            document.getElementById('content').innerHTML = formatGuide(res.guide, res.style);
             document.getElementById('edit').innerHTML = `<a href="https://github.com/csmith/autoguide/edit/master/guides/${data.zoneID}.html">Suggest a change for this guide on GitHub</a>`
             maximise();
         } else {
@@ -41,6 +42,44 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
+const prefixes = new Map([
+    ['HEALERS:', 'healer-note'],
+    ['DPS:', 'dps-note'],
+    ['TANKS:', 'tank-note'],
+    ['IMPORTANT:', 'important-note']
+])
+
+const spellRegex = new RegExp(`\\[\\[(.*?)]]`, 'g');
+
+function formatGuide(guide, style) {
+    let res = '';
+
+    if (style && style.trim().length > 0) {
+        res += `<style>${style}</style>`;
+    }
+
+    guide.forEach((encounter) => {
+        res += `<h3>${encounter[0]}</h3><ul>`;
+
+        encounter.slice(1).forEach((step) => {
+            let cls = '';
+            prefixes.forEach((v, k) => {
+                if (step.startsWith(k)) {
+                    cls = v;
+                    step = step.substring(k.length);
+                }
+            });
+
+            step = step.replaceAll(spellRegex, (_, s) => `<span class="spell">${s}</span>`);
+
+            res += `<li class="${cls}">${step}</li>`;
+        });
+
+        res += `</ul>`;
+    });
+
+    return res;
+}
 
 function minimise() {
     document.body.className = 'missing';

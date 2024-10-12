@@ -2,5 +2,16 @@
   "name": "The Seat of Sacrifice",
   "links": {
   },
-  "content": "\n<ul>\n  <li class=\"healer-note\"><span class=\"spell\">Terror Unleashed</span> Group wide drop to 1HP, everyone must be fully healed to remove debuff</li>\n  <li><span class=\"spell\">Absolute Fire III</span> - Gives Pyretic debuff, do nothing until this debuff drops off</li>\n  <li><span class=\"spell\">Absolute Blizzard III</span> - Be moving when this goes off</li>\n  <li><span class=\"spell\">Imbued Sword (Fire|Blizzard)</span> - Above Fire/Blizzard will go off when he does Sword attach</li>\n  <li><span class=\"spell\">Eldragon Dive</span>Watch out for the dragon on half of the arena, may go off with other mechanics</li>\n  <li class=\"tank-note\"><span class=\"spell\">Ultimate Crossover</span> Tank LB3 must be used or wipe</li>\n  <li>If tethered to a Spectral Egi - point it away from the group</li>\n</ul>\n"
+  "guide": [
+    [
+      "Elidibus",
+      "HEALERS: [[Terror Unleashed]]: group wide drop to 1HP, everyone must be fully healed to remove debuff.",
+      "[[Absolute Fire III]]: gives pyretic debuff, do nothing until this debuff drops off.",
+      "[[Absolute Blizzard III]]: be moving when the attack goes off to avoid freezing.",
+      "[[Imbued Sword (Fire|Blizzard]]: the next [[Sword Attack]] will have the above fire/blizzard effect.",
+      "[[Eldragon Dive]]: dragon will cause AOE on one half of the arena.",
+      "TANKS: [[Ultimate Crossover]]: mandatory LB3 to survive.",
+      "If tethered to a Spectral Egi point it away from the group."
+    ]
+  ]
 }

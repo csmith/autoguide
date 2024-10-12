@@ -5,5 +5,13 @@
     "consolegameswiki": "https://ffxiv.consolegameswiki.com/wiki/Deltascape_V2.0",
     "mtq": "https://www.youtube.com/watch?v=dAGTYL_iSDw"
   },
-  "content": "\n<ul>\n    <li><span class=\"spell\">Antilight</span>\n        <ul>\n            <li><span class=\"spell\">purple orbs</span>: levitate to avoid</li>\n            <li><span class=\"spell\">gold orbs</span>: stay on the ground</li>\n            <li><span class=\"spell\">purple and gold orbs everywhere</span>: go to the gap between purple orbs in the\n                center\n            </li>\n        </ul>\n    </li>\n</ul>"
+  "guide": [
+    [
+      "Catastrophe",
+      "[[Antilight]]",
+      "➥ [[purple orbs]]: levitate to avoid.",
+      "➥ [[gold orbs]]: stay on the ground.",
+      "➥ [[purple and gold orbs everywhere]]: go to the gap between purple orbs in the center."
+    ]
+  ]
 }

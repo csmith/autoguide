@@ -24,14 +24,20 @@ be the numerical zone ID for the instance, e.g. content for
 `The Howling Eye (Hard)` would go in `guides/294.json`. The zone ID is shown
 in the autoguide header.
 
-Guides content should follow these rules:
+The `guides` element is interpreted as follows:
 
-- Sections (bosses, phases) should use `<h3>` headings
-- Instructions should generally be in an `<ul>`
-- Spell names or other information that needs to be easily scannable should be
-  wrapped in a `<span class="spell">`
-- Callouts can be made by applying the `healer-note`, `tank-note` or
-  `important-note` class to a container. This will add a border and icon.
+- Each encounter (boss fight or trash) is a top-level array
+- The first item in the array is the title of the encounter
+- Everything else is a single step in the guide
+- To add callouts, prefix the line with one of:
+  - `HEALERS:` for healer callouts
+  - `DPS:` for DPS callouts
+  - `TANKS:` for tank callouts
+  - `IMPORTANT:` for general critical info (use sparingly!)
+- To highlight names of spells or other at-a-glance-info, wrap them in `[[double square brackets]]`
+
+Guides can contain arbitrary HTML, and a `style` entry can be included to add
+custom CSS if required (see `944.json` for an example).
 
 ## Disclaimer
 

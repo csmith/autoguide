@@ -2,5 +2,12 @@
   "name": "Eden's Gate: Sepulture",
   "links": {
   },
-  "content": "\n<ul>\n  <li><span class=\"spell\">Seismic Wave</span> Hide behind non-glowing rock</li>\n  <li><span class=\"spell\">Massive Landslide</span> Move in front of boss (or die), then move to side</li>\n  <li><span class=\"spell\">Fault Line</span> Move to side with 2 columns of tiles (or die)</li>\n</ul>\n"
+  "guide": [
+    [
+      "Titan",
+      "[[Seismic Wave]]: hide behind non-glowing rock.",
+      "[[Massive Landslide]]: fatal attack to the sides, then to the front",
+      "[[Fault Line]]: knock back from the line, be on the side with most space"
+    ]
+  ]
 }

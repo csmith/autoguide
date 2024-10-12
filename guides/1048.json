@@ -2,5 +2,11 @@
   "name": "The Porta Decumana",
   "links": {
   },
-  "content": "\n\n<ul>\n  <li class=\"dps-note\"><span class=\"spell\">Limit Break</span> after <span class=\"spell\">Radiant Blaze</span> (as it will reset)</li>\n  <li class=\"dps-note\"><span class=\"spell\">Limit Break</span> shortly after <span class=\"spell\">Ultima</span> starts casting</li>\n</ul>\n"
+  "guide": [
+    [
+      "The Ultima Weapon",
+      "DPS: [[Limit Break]] after [[Radiant Blaze]] (as it will reset).",
+      "DPS: [[Limit Break]] shortly after [[Ultima]] starts casting."
+    ]
+  ]
 }

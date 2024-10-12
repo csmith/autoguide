@@ -5,5 +5,12 @@
     "consolegameswiki": "https://ffxiv.consolegameswiki.com/wiki/A_Relic_Reborn:_The_Hydra",
     "mtq": "https://www.youtube.com/watch?v=Ma7lkpAmlx4"
   },
-  "content": "\n<ul>\n    <li><span class=\"spell\">Ball of Ice</span> - Move away from others, leaves large ice patch</li>\n    <li><span class=\"spell\">Ball of Fire</span> - Move away from others, leaves large fire patch</li>\n    <li><span class=\"spell\">Fear Itself</span> - Move into melee range</li>\n</ul>\n"
+  "guide": [
+    [
+      "Hydra",
+      "[[Ball of Ice]]: spread; leaves a large icy patch.",
+      "[[Ball of Fire]]: spread; leaves a large fire patch.",
+      "[[Fear Itself]]: move into melee range."
+    ]
+  ]
 }
