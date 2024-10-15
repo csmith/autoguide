@@ -1,0 +1,23 @@
+{
+  "name": "Ihuykatumu",
+  "links": {
+    "mtq": "https://www.youtube.com/watch?v=CmZ3e8z1Yu4",
+    "consolegameswiki": "https://ffxiv.consolegameswiki.com/wiki/Ihuykatumu"
+  },
+  "guide": [
+    [
+      "Prime Punutiy",
+      "[[Resurface]]: after all the dodging, there will be a donut AOE around the [[Ihuykatumu Flytrap]] add",
+      "[[Song of the Punutiy]]: the tethers don't really matter, just spread the AOE telegraphs"
+    ],
+    [
+      "Drowsie",
+      "When the boss moves to one side of the arena, stack behind him to avoid [[Sneeze]]"
+    ],
+    [
+      "Apollyon",
+      "After the boss's forearms are empowered, [[Blade]] becomes a donut AOE focused on the tank",
+      "[[Windwhistle]]: move with the whirlwinds to remain in safe zones"
+    ]
+  ]
+}
