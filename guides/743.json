@@ -2,5 +2,30 @@
   "name": "The Fractal Continuum (Hard)",
   "links": {
   },
-  "guide": []
+  "guide": [
+    [
+      "Trash",
+      "There are two chimeras, stun or interrupt the dragon/ram casts if pulling them together"
+    ],
+    [
+      "Motherbit",
+      "[[Allagan Gravity]] leaves puddles that will pull you in and damage/debuff",
+      "[[Citadel Buster]] be ready to quickly stand behind the bits when they form a line"
+    ],
+    [
+      "The Ultima Warrior",
+      "Players with [[Infinite Fire]] or [[Infinite Ice]] debuffs should stand in the matching circles",
+      "[[Green markers]] will leave puddles that grow over time, and will be followed by a stack marker",
+      "Players with [[Black]] and [[White]] circles should pair up"
+    ],
+    [
+      "Trash",
+      "Stay out of LOS of the mobs behind glass to prevent them escaping"
+    ],
+    [
+      "The Ultima Beast",
+      "[[Death Spin]] untelegraphed melee AOE - run out",
+      "[[Aether Bend]] untelegraphed donut AOE - run in"
+    ]
+  ]
 }
